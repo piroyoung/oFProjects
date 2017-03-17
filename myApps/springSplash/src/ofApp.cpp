@@ -22,7 +22,7 @@ void ofApp::setup(){
     ofEnableAlphaBlending();
     
     for(int i=0; i<NUM_CIRCLE; i++){
-        circle[i] = CircleMaterial(ofRandomWidth(), ofRandomHeight(), ofRandomHeight()/8);
+        circle[i] = CircleMaterial(ofRandomWidth(), ofRandomHeight(), ofRandomHeight()/16);
     }
 }
 
@@ -41,7 +41,7 @@ void ofApp::update(){
         } else {
             circle[i].x = ofRandomWidth();
             circle[i].y = ofRandomHeight();
-            circle[i].setR(ofRandomHeight()/8);
+            circle[i].setR(ofRandomHeight()/16);
             circle[i].color = Color();
         }
     }

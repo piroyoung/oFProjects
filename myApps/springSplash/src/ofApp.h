@@ -1,6 +1,6 @@
 #pragma once
 
-#define NUM_CIRCLE 400
+#define NUM_CIRCLE 800
 
 #include "ofMain.h"
 #include "shapeMaterial.h"
